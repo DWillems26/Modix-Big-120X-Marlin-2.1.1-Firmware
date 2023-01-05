@@ -1,6 +1,9 @@
 # Modix-Big-120X-Marlin-2.1.1-Firmware
 Marlin 2.1.1 Firmware configured for Modix Big-120X. This is for the older version (2018-2019?) with motherboard
-MKS Gen V1.4. You will see on your printer LCD screen "Marlin 1.1.9" as it boots up.
+MKS Gen V1.4. You will see on your printer LCD screen "Marlin 1.1.9" as it boots up. This is also only configured
+for English. I added multiple entries for the new menu items, but they're only added in the "language_en" file. I
+apologize for that inconvenience. Feel free to reach out to me and we can try working together to get another 
+language added.
 
 Menu was significantly changed/rearranged, but the 120X calibration menu is near identical to
 Modix's original menu in Marlin 1.1.9. The UBL menu has changed, but maintains the same functions with new functions added.
