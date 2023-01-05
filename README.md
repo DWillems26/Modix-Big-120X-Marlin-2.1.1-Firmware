@@ -43,6 +43,8 @@ temperatures compared to PID tuning, but there are a few drawbacks.
        2) In Pronterface. Execute "M306 T". After completion enter M500 to save the tune settings.
 
 To change any parameters mentioned below, you will need to reconfigure and build the firmware/hex file.
+I included the files I have made changes to, but you will need to download the rest from Marlin's github.
+https://github.com/MarlinFirmware/Marlin
 
 To change filament parameters for MPC tuning:
 in configuration.h - lines 702-703. Disable the PLA by adding "//" and Enable PETG by deleting the "//".
