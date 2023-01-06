@@ -17,13 +17,19 @@ I have not fully tested every single menu item on the printer, but I have gone t
 believe a few items I have not used is the probe calibration and mesh validation feature in UBL.
 If you find any issues I have not discovered or fixed please let me know.
 
+I included two versions. One has the power loss recover option enabled. This uses about 87% of memory
+on your printer motherboard. the other version only uses 79%. Power loss recovery has to be initiated
+in Pronterface or start GCode for it to function, it is not initiated by default as it does wear out
+your SD card. I have not tested the power loss recovery.
+
 I recommend that you save your UBL Mesh before loading new firmware so you do not need to reaccomplish
 the UBL if you don't need to. Do this by sending the Mesh to PC. Copy the values to Modix's mesh
 editing website. Save Export the file. After loading firmware load that file in pronterface, print,
 enter M500 to save. (Follow Modix's manual for better details)
 
 Baudrate was changed to 250000. In order to connect to printer with Pronterface you will need to change
-the baudrate in Pronterface from 115200 to 250000 found at the top left.
+the baudrate in Pronterface from 115200 to 250000 found at the top left. Keep baudrate at 115200 while
+using XLoader.
 
 PID tuning was removed and MPC tuning is now utilized. MPC Tuning has given me more stable nozzle
 temperatures compared to PID tuning, but there are a few drawbacks.
